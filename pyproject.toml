@@ -11,7 +11,7 @@ python=">=3.9,<3.12"
 cmake="*"
 cffi = "*"
 rhino3dm={git="https://github.com/mcneel/rhino3dm.git", rev="d7aa33e"} #
-
+mmcore={git="https://github.com/contextmachine/mmcore.git"}
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
